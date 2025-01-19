@@ -1,0 +1,21 @@
+
+ 1992  pvs linux linux
+ 1993  pvresize
+ 1994  pvresize /dev/nvme1n1p1 
+ 1996  vgs linux
+ 1997  pvresize /dev/nvme1n1
+ 1998  pvs linux
+ 1999  parted /dev/nvme1n1
+ 2000  pvs linux
+ 2001  vgf linux
+ 2002  vgs
+ 2003  lvs
+ 2004  lvextend -l+100%FREE /dev/var-vg/lv-var 
+ 2005  lvs  linux
+ 2006  lsblk -f
+ 2007  resize2fs 
+ 2008  resize2fs /dev/mapper/var--vg-lv--var 
+ 2009  df -h
+ 2010  history
+resize partition da command line + aws a parte
+      _linux_
